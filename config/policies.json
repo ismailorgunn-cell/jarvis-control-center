@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "requireConfirmation": [
+    "publish_content",
+    "start_ad_campaign",
+    "change_ad_budget",
+    "delete_data",
+    "destructive_code_or_database_change"
+  ],
+  "neverStoreInRepo": [
+    "passwords",
+    "api_keys",
+    "access_tokens",
+    "private_credentials"
+  ],
+  "readOnlyStatusChecksMayRunWithoutConfirmation": true
+}
