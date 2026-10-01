@@ -1,0 +1,23 @@
+{
+  "name": "JARVIS",
+  "version": "0.1.0",
+  "language": "tr",
+  "businesses": [
+    {"id":"orgunlar-garage","name":"Orgunlar Garage","github":"ismailorgunn-cell/orgunlar-garage"},
+    {"id":"oto-ekspertiz","name":"Garantili Arabam / Oto Ekspertiz","supabase_project":"ncymcqaxdxxjzjecrjke"},
+    {"id":"chippower-cyprus","name":"ChipPower Cyprus"},
+    {"id":"oto-market-kibris","name":"Oto Market Kibris","github":"ismailorgunn-cell/oto-market-kibris"}
+  ],
+  "integrations": {
+    "metricool":{"brand_id":"7179807","brand":"Orgunlar Garage"},
+    "meta_ads":{"account_id":"1337532517828845","account":"Orgunlar Ads"},
+    "supabase":{"ekspertiz_project":"ncymcqaxdxxjzjecrjke"},
+    "github":{"owner":"ismailorgunn-cell"}
+  },
+  "guardrails": {
+    "confirm_before_ad_spend": true,
+    "confirm_before_publish": true,
+    "confirm_before_destructive_change": true,
+    "never_store_secrets_in_repo": true
+  }
+}
