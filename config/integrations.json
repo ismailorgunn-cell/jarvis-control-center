@@ -1,35 +1,14 @@
 {
-  "version": 1,
+  "version": 2,
   "integrations": {
-    "github": {
-      "enabled": true,
-      "repositories": [
-        "orgunlar-garage",
-        "orgunlar-garage-panel",
-        "vintrust-site",
-        "oto-market-kibris",
-        "jarvis-control-center"
-      ]
-    },
-    "supabase": {
-      "enabled": true,
-      "primaryProject": "ORGUNLAR-EKSPERTİZ"
-    },
-    "metricool": {
-      "enabled": true,
-      "brand": "Orgunlar Garage",
-      "instagram": "orgunlargarage"
-    },
-    "metaAds": {
-      "enabled": true,
-      "provider": "Windsor.ai",
-      "account": "Orgunlar Ads"
-    },
-    "adobe": {
-      "enabled": true
-    },
-    "googleDrive": {
-      "enabled": true
-    }
+    "github": {"enabled": true, "repositories": ["orgunlar-garage","orgunlar-garage-panel","vintrust-site","oto-market-kibris","jarvis-control-center"]},
+    "supabase": {"enabled": true, "primaryProject": "ORGUNLAR-EKSPERTİZ"},
+    "metricool": {"enabled": true, "brand": "Orgunlar Garage", "instagram": "orgunlargarage"},
+    "metaAds": {"enabled": true, "provider": "Windsor.ai", "account": "Orgunlar Ads"},
+    "adobe": {"enabled": true},
+    "googleDrive": {"enabled": true},
+    "gmail": {"enabled": true, "account": "ismailorgunn@gmail.com"},
+    "googleCalendar": {"enabled": true, "calendar": "primary", "account": "ismailorgunn@gmail.com"},
+    "etsy": {"enabled": false, "status": "available_to_connect_later"}
   }
 }
