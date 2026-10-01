@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "integrations": {
+    "github": {
+      "enabled": true,
+      "repositories": [
+        "orgunlar-garage",
+        "orgunlar-garage-panel",
+        "vintrust-site",
+        "oto-market-kibris",
+        "jarvis-control-center"
+      ]
+    },
+    "supabase": {
+      "enabled": true,
+      "primaryProject": "ORGUNLAR-EKSPERTİZ"
+    },
+    "metricool": {
+      "enabled": true,
+      "brand": "Orgunlar Garage",
+      "instagram": "orgunlargarage"
+    },
+    "metaAds": {
+      "enabled": true,
+      "provider": "Windsor.ai",
+      "account": "Orgunlar Ads"
+    },
+    "adobe": {
+      "enabled": true
+    },
+    "googleDrive": {
+      "enabled": true
+    }
+  }
+}
